@@ -2,18 +2,18 @@
 baseurl: /
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
-google_analytics: "UA-46465113-2"
+google_analytics: "UA-114520499-1"
 
 # UI configs
 title: "Photography by John Sokol"
-subtitle: "See the world through my eyes!"
+subtitle:
 author: "John Sokol"
 header:
  title: "Photography"
- subtitle: "by Ram Patra"
+ subtitle: "by John Sokol"
 footer:
  name: "John Sokol"
- bio: "I am a Data Scientist, Photographer, and Educator. Love making teeny tiny apps solving tiny problems in life and now learning photography."
+ bio: "I am a Data Scientist, Photographer, and Educator."
 web_design: "AJ"
 social_urls:
   twitter: "https://www.twitter.com/johnsokol_"
