@@ -322,6 +322,10 @@
                 if (info === "iso") {
                     template += '<i class="fa fa-info-circle" aria-hidden="true"></i> ' + exif["iso"] + '&nbsp;&nbsp;';
                 }
+             
+                if (info === "date_time") {
+                    template += '<i class="fa fa-calendar-alt" aria-hidden="true"></i> ' + exif["date_time"] + '&nbsp;&nbsp;';
+                }
             }
             return template;
         }
@@ -343,6 +347,10 @@
 
             if (EXIF.getTag(img, "ISOSpeedRatings") !== undefined) {
                 exifData.iso = EXIF.getTag(img, "ISOSpeedRatings");
+            }
+         
+            if (EXIF.getTag(img, "DateTimeOriginal") !== undefined) {
+                exifData.date_time = EXIF.getTag(img, "DateTimeOriginal");
             }
             return exifData;
         }
